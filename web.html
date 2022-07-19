@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <h3>scroll down</h3>
-    <h2 class="text">HELLO !</h2>
+    <h3>Hi!</h3>
+    <h2 class="text">HELLO你好مرحبًاनमस्ते  IAM  SHIVANANDU</h2>
     <section>
-        <h2 class="innertext"> HELLO !</h2>
+        <h2 class="innerText">HELLO你好مرحبًاनमस्ते  IAM  SHIVANANDU</h2>
     </section>
     <div class="container">
         <h1>
@@ -24,13 +24,13 @@
     </div>
     <script>
         let section = document.querySelector('section');
-        let text =document.querySelector('.text')
-        let innertext=document.querySelector('.innertext')
+        let text = document.querySelector('.text');
+        let innerText=document.querySelector('.innerText')
         window.addEventListener('scroll',function() {
             let value = window.scrollY;
             section.style.clipPath = "circle("+ value +"px at center center)";
 text.style.left = 100 - value / 5 +  '%';
-innertext.style.left = 100 - value  / 5  + '%';
+innerText.style.left = 100 - value  / 5  + '%';
         })
     </script>
 </body>
