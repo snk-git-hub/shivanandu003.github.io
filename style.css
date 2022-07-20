@@ -101,3 +101,12 @@ ul{
   ul li:hover{
   background-color: #fff;
 }
+.follow{
+    font-family: 'Press Start 2P',cursive;
+  color:#fff ;
+ 
+  font-size: 10px;
+  position:relative;
+top: 100%;
+text-align: center;
+}
