@@ -8,7 +8,7 @@
 }
 body
 {
-    background-color:#82f9fd;
+    background-color:linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
 h3
 {
